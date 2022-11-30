@@ -52,6 +52,10 @@ version of libjpeg installed. I used libjpeg8-dev. e.g.
 
     sudo apt-get install cmake libjpeg8-dev
 
+If you do not have libv4l-dev installed, you may need to install it.
+
+    sudo apt-get install libv4l-dev
+
 If you do not have gcc (and g++ for the opencv plugin) you may need to install those.
 
     sudo apt-get install gcc g++
